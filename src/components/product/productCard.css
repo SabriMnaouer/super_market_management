@@ -1,0 +1,27 @@
+.productCard{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.productImage{
+    width: 70%;
+    height: auto;
+
+}
+.productLabel{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(12, 239, 50);
+}
+.productCategory, .productQuantity, .productPrice{
+    color: black;
+    font-size: 15px;
+}
