@@ -10,6 +10,7 @@ export const ProductList = () => {
   const [inputValue, setInputValue] = useState("");
   const [filteredProducts, setFilteredProducts] =
     useState<Product[]>(productList);
+ 
   const searchForElement = () => {
     if (inputValue === "") {
       const productListIndexes = productList.map((el) => el.id);
@@ -45,6 +46,7 @@ export const ProductList = () => {
   const updateRemovedElement = (items: Product[]) => {
     removedElements.push(...items);
   };
+
 
   return (
     <>
